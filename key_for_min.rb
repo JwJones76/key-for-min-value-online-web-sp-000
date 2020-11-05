@@ -6,6 +6,7 @@ def key_for_min_value(name_hash)
     nil
   else name_hash.collect {|name, age|}
 end
+end
 
     
   
