@@ -18,7 +18,6 @@ def key_of_min_value(hash_of_names) #accepts hash where key/value pairs are name
     array_of_names.fetch(min_integer_index - 1) 
   end
 end
-end
 
     
   
