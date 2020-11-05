@@ -16,6 +16,8 @@ def key_of_min_value(hash_of_names) #accepts hash where key/value pairs are name
     min_integer = integer_array.difference(max_integer_array).join.to_i  
     min_integer_index = array_of_names.index(min_integer)
     array_of_names.fetch(min_integer_index - 1) 
+  end
+end
 end
 
     
